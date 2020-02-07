@@ -32,11 +32,16 @@ const Layout = ({ children, site }) => (
         </div>
       </div>
       <div className="Wrap" >
+        <div className="Footer">
+          test
+        </div>
+      </div>
+      <div className="Wrap" >
         {children}
       </div>
       <div className="Wrap" >
         <div className="Footer">
-          This website is a test
+          Footer txt here
         </div>
       </div>
     </div>
